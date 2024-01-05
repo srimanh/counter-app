@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+*
+.head{
+  text-align: center;
+  font-size: 3rem;
+}
+.num{
+  position: relative;
+  left: 50%;
+  bottom: 20px;
+  font-size: 3.5rem;
+}
+.sub,.add,.reset{
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+}
+.sub:hover{
+  background-color: rgba(0, 0, 129, 0.762);
+}
+.add:hover{
+  background-color: rgba(0, 0, 129, 0.762);
+}
+.reset:hover{
+  background-color: rgba(0, 0, 129, 0.762);
+}
+.reset{
+  position: relative;
+  left: 40px;
+}
+.buttons{
+  position: relative;
+  left: 0%;
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.head {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.num {
+  position: relative;
+  top: 0%;
+  left: 50%;
+  bottom: 10px;
+  font-size: 3.5rem;
+}
+
+.sub, .add, .reset {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sub:hover, .add:hover, .reset:hover {
+  background-color: rgba(0, 0, 129, 0.762);
+}
+
+.reset {
+  position: relative;
+  left: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin-top: 20px;
+}
